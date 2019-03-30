@@ -62,6 +62,11 @@ export class InicioPage implements OnInit {
       icon:'clipboard',
       nombre:'Input - Forms',
       redirectTo:'/input'
+    },
+    {
+      icon:'list',
+      nombre:'List',
+      redirectTo:'/list'
     }
   ]
   constructor() { }
