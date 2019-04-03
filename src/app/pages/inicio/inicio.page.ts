@@ -67,6 +67,11 @@ export class InicioPage implements OnInit {
       icon:'list',
       nombre:'List',
       redirectTo:'/list'
+    },
+    {
+      icon:'logo-buffer',
+      nombre:'reorder',
+      redirectTo:'/reorder'
     }
   ]
   constructor() { }
