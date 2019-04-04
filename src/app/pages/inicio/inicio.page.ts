@@ -72,6 +72,11 @@ export class InicioPage implements OnInit {
       icon:'logo-buffer',
       nombre:'reorder',
       redirectTo:'/reorder'
+    },
+    {
+      icon:'refresh-circle',
+      nombre:'loading',
+      redirectTo:'/loading'
     }
   ]
   constructor() { }
